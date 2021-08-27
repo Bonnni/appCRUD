@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace appCRUD.EF
 {
-    class EfDbContext : DbContext
+    public class EfDbContext : DbContext
     {
         public EfDbContext(DbContextOptions<EfDbContext> options)
             : base(options)

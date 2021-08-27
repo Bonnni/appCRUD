@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using appCRUD.EF;
 
 namespace appCRUD
 {
@@ -18,6 +19,11 @@ namespace appCRUD
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+            UserOperationsEF(EfDbContext)
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
