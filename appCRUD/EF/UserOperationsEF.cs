@@ -11,9 +11,10 @@ namespace appCRUD
     public class UserOperationsEF
     {
         private readonly EfDbContext _db;
-        public UserOperationsEF(EfDbContext db)
+        public UserOperationsEF()
         {
-            _db = db;
+            _db = new EfDbContext();
+            _db.Database.EnsureCreated();
         }
 
         public void UserCreate(User user)
@@ -21,7 +22,7 @@ namespace appCRUD
             _db.Add(user);
             _db.SaveChanges();
         }
-        public IEnumerable<User> GetUsers()
+        public List<User> GetUsers()
         {
            return _db.Users.ToList();
         }

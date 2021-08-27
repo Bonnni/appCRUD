@@ -87,3 +87,5 @@ C:\Users\BoNNNi\source\repos\appCRUD\appCRUD\obj\Debug\appCRUD.csproj.CoreCompil
 C:\Users\BoNNNi\source\repos\appCRUD\appCRUD\obj\Debug\appCRUD.csproj.CopyComplete
 C:\Users\BoNNNi\source\repos\appCRUD\appCRUD\obj\Debug\appCRUD.exe
 C:\Users\BoNNNi\source\repos\appCRUD\appCRUD\obj\Debug\appCRUD.pdb
+C:\Users\BoNNNi\source\repos\appCRUD\appCRUD\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\BoNNNi\source\repos\appCRUD\appCRUD\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
